@@ -9,3 +9,27 @@ body {
     justify-content: center;
     align-items: center;
 }
+/* Estilos para la barra de navegación */
+.navbar {
+    background-color: #333; /* Color de fondo */
+    overflow: hidden; /* Para manejar correctamente los elementos flotantes */
+    border-radius: 10px; /* Radio de borde para redondear las esquinas */
+    display: flex; /* Para permitir el centrado horizontal */
+    justify-content: center; /* Para centrar horizontalmente los elementos */
+    margin-bottom: 20px; /* Margen inferior para separar la barra del contenido */
+   
+  }
+  
+  /* Estilos para los enlaces */
+  .navbar a {
+    color: white; /* Color del texto */
+    text-align: center; /* Para centrar el texto */
+    padding: 14px 20px; /* Espaciado interno */
+    text-decoration: none; /* Quitar subrayado del texto */
+  }
+  
+  /* Estilos para los enlaces al pasar el ratón por encima */
+  .navbar a:hover {
+    background-color: #ddd; /* Cambiar el color de fondo */
+    color: black; /* Cambiar el color del texto */
+  }
