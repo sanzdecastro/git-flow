@@ -3,9 +3,24 @@
     margin: 0;
 }
 
+/* add some color to the body 🎨 */
 body {
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: aliceblue;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 4rem;
+}
+
+.header__text {
+    padding-top: 2rem;
+    text-align: center;
+    line-height: 1.5rem;
 }
